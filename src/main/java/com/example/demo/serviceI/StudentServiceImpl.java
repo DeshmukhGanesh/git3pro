@@ -2,8 +2,10 @@ package com.example.demo.serviceI;
 
 import java.util.List;
 
-import com.example.demo.model.Student;
+import org.springframework.stereotype.Service;
 
+import com.example.demo.model.Student;
+@Service
 public class StudentServiceImpl implements StudentServiceI{
 
 	@Override
