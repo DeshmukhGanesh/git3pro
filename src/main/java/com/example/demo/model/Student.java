@@ -7,19 +7,19 @@ import javax.persistence.Id;
 public class Student {
 
 	@Id
-	private int studentId;
+	private Integer studentId;
 	
 	private String studentName;
 	
 	private String studentemail;
 	
-	private int studentAge;
+	private Integer studentAge;
 
-	public int getStudentId() {
+	public Integer getStudentId() {
 		return studentId;
 	}
 
-	public void setStudentId(int studentId) {
+	public void setStudentId(Integer studentId) {
 		this.studentId = studentId;
 	}
 
@@ -39,11 +39,11 @@ public class Student {
 		this.studentemail = studentemail;
 	}
 
-	public int getStudentAge() {
+	public Integer getStudentAge() {
 		return studentAge;
 	}
 
-	public void setStudentAge(int studentAge) {
+	public void setStudentAge(Integer studentAge) {
 		this.studentAge = studentAge;
 	}
 
@@ -52,6 +52,7 @@ public class Student {
 		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentemail=" + studentemail
 				+ ", studentAge=" + studentAge + "]";
 	}
-	
+
+
 	
 }
